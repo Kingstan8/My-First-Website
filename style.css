@@ -1,0 +1,68 @@
+.col {
+	background-color: rgb(223, 214, 214);
+	border: 2px solid black;
+
+	} 
+
+body {
+	background-image: url('images/simple.jpg');
+	object-fit: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+ 
+
+
+ img {
+	width: 200px;
+	height: 300px;
+	flex-wrap: wrap;
+	margin: 2em;
+transition: all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+}
+p{text-align: left;
+	line-height: 20px;
+	color: aliceblue;
+	text-decoration: double;
+text-transform: uppercase;
+font-style: italic;
+}
+h1 {
+	color: red;
+	text-align: center;
+	border: 5px red;
+	cursor: pointer;
+	border: 5px solid purple;
+	font-family: 'Times New Roman', Times, serif;
+	box-shadow: 4px 4px 5px #888888;
+}
+
+h2{
+	color: rgb(148, 50, 17);
+
+}
+image{
+	float: left;
+
+}
+span{
+	font-size: 1cm;
+	color: rgb(139, 196, 34);
+}
+li {
+	color: red;
+	list-style: none;
+	display: inline-block;
+}
+
+.pic{
+	width: 30rem;
+}
+.col {
+	background-color: black;
+	border: 2px solid black; 
+}
